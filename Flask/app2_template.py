@@ -11,11 +11,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    t_int = 18
-    t_str = 'curry'
-    t_list = [1,5,4,3,2]
-    t_dict ={'name': 'durant', 'age': 28}
-
+    return render_template('index2.html')
 
 
 if __name__ == "__main__":
