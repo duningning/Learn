@@ -1,0 +1,10 @@
+2022-07-20 10:56:40,111 - public.sub - INFO - this is another module using logging
+2022-07-20 10:56:40,111 - public.sub - WARNING - 另一个模块打印的警告
+2022-07-20 10:56:58,338 - public.sub - INFO - this is another module using logging
+
+2022-07-20 10:56:58,339 - public.sub - WARNING - 另一个模块打印的警告
+
+2022-07-20 10:57:29,625 - public.sub - INFO - this is another module using logging
+
+2022-07-20 10:57:29,625 - public.sub - WARNING - 另一个模块打印的警告
+
