@@ -1,0 +1,26 @@
+{
+  "capabilities":
+      [
+        {
+          "browserName": "",
+          "version":"<version_of_iOS_e.g._7.1>",#设置一会要启动的版本名称
+          "maxInstances": 1,
+          "platform":"ANDROID"#平台名
+        }
+      ],
+  "configuration":
+  {
+    "cleanUpCycle":2000,
+    "timeout":30000,
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "url":"http://localhost:4723/wd/hub",#appium server本地的地址
+    "host": "localhost",
+    "port": 4723,#<appium_port>
+    "maxSession": 1,
+    "register": true,
+    "registerCycle": 5000,#每个五秒去注册一次
+    "hubPort": 4444,
+    "hubHost": "192.168.31.106"
+    "hubProtocol": "http"
+  }
+}
