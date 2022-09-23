@@ -32,12 +32,11 @@ def hello_sijax():
         obj_response.css('a','color','red')
 
     if g.sijax.is_sijax_request:
-        print("11111111111111111")
         g.sijax.register_callback('say_hello',hello_handler)
         g.sijax.register_callback('say_goodbye',goodbye_handler)
         return g.sijax.process_request()
     else:
-        print("2222222222222")
+
         return render_template('sijaxexample.html')
 
 if __name__ == "__main__":
