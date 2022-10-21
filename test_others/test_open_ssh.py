@@ -9,7 +9,7 @@ import pytest
 
 
 def test_open_ssh():
-    ip = '172.17.21.8'
+    ip = '172.17.21.2'
     r = requests.get('http://' + ip + ':9000/sys/deviceinfo').json()
     key = 'deepglint' + r['data']['id']
     token = hashlib.md5(key.encode('utf-8')).hexdigest()
